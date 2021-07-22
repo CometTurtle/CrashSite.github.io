@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(52, 53, 54);
+    
+  }
+
+
+  .container h5,h4,h2,h1{
+      color:whitesmoke;
+  }
+
+  hr {
+    border: 3px dashed #ff6c31 ;
+    border-radius: 5px;
+  }
+  .navbar-text{
+      float: right;
+      text-align: center;
+      align-self: center;
+      word-break: break-word;
+      white-space: normal;
+  }
+
+    
+  @media only screen and (min-width: 500px) {
+    .navIcon {
+      width: 10%;
+      height: auto;
+    
+    }
+  }
+
+
+  @media only screen and (max-width: 500px) {
+    .navIcon {
+        width: 20%;
+        height: auto;
+        float:none; 
+    }
+  } 
+ 
